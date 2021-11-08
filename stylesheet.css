@@ -35,9 +35,9 @@ header{
     
     
 }
-#lii{
+#lii{ 
     list-style-type: none;
-    display: inline-block;
+    display: inline;
     padding: 20px;
     float: right;
     
