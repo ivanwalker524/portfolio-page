@@ -1,0 +1,139 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+}
+header{
+    margin: 10px;
+}
+#head{
+    font-size: 80px;
+    color: blue;
+    text-align: center;
+    margin-top: 20%;
+    font-family: serif;
+    
+}
+.para1{
+    font-style: italic;
+    font-size: 1.4rem;
+    padding: 20px;
+}
+.nav-links{
+    background-color: pink;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 27px;
+    
+    
+}
+#lii{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+    float: right;
+    
+}
+a{
+    text-decoration: none;
+}
+li a:hover{
+    background-color: powderblue;
+    padding: 20px;
+}
+#projects{
+    background-color: burlywood;
+    height: 400px;
+  
+}
+@media (max-width:650px){
+    #projects{
+        width: 100%;
+        margin-right: 0;
+        
+    }
+}
+.heading1{
+    margin-top: 100px;
+    color: red;
+    padding: 10px;
+    letter-spacing: 0.1rem;
+}
+table{
+    border: 4px soli silver;
+    border-collapse: collapse;  
+    text-align: center;
+    margin: 35px;
+    margin-left: 30%;
+
+}
+@media (max-width:800px){
+    table{
+        margin-left: 10px;
+    }
+}
+th{
+    color:blue;
+    border: solid silver 4px;
+    padding: 29px;
+    letter-spacing: 0.1rem;
+}
+th:hover{
+    color: black;
+}
+.divv{
+    border-bottom: 5px solid red;
+    padding-top:10%;
+}
+.heading2{
+    margin-top: 50px;
+}
+.icon{
+    margin-top: 40px;
+    font-size: 50px;
+
+    
+}
+.fab:hover{
+    transform: translateY(2px);
+    
+}
+.fas:hover{
+    transform: translateY(2px);
+}
+.footer{
+   
+    font-size: 20px;
+    background-color: pink;
+    padding:20px;
+    bottom: 0;
+}
+
+#skills{
+    border: solid;
+    width: 400px;
+    margin-left: 35%;
+    border-radius: 10px;
+   
+
+}
+@media (max-width:1000px){
+    #skills{
+        margin-left: 12%;
+        color: blueviolet;
+    }
+}
+ol{
+    color:green;
+ 
+}
+
+
