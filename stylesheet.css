@@ -58,7 +58,7 @@ li a:hover{
 }
 #projects{
     background-color: burlywood;
-    height: 520px;
+    height: 550px;
   
 }
 @media (max-width:650px){
@@ -87,7 +87,7 @@ li a:hover{
 }
 @media (max-width:650px ){
     .pp-btn{
-        margin-left: 25%;
+        margin-left: 18%;
     }
 }
 .liii{
