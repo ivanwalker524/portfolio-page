@@ -32,14 +32,16 @@ header{
     top: 0;
     width: 100%;
     font-size: 27px;
-    
-    
+     
 }
-#lii{ 
-    list-style-type: none;
-    display: inline;
-    padding: 20px;
+
+ul{
     float: right;
+}
+#lii{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
     
 }
 a{
@@ -51,7 +53,7 @@ li a:hover{
 }
 #projects{
     background-color: burlywood;
-    height: 400px;
+    height: 500px;
   
 }
 @media (max-width:650px){
@@ -91,17 +93,24 @@ th:hover{
 }
 .divv{
     border-bottom: 5px solid red;
-    padding-top:10%;
+    margin-top:30%;
+    
+}
+@media (max-width:680px){
+    .divv{
+        margin-top: 55%;
+    }
 }
 .heading2{
-    margin-top: 50px;
+    margin-top: 60px;
+    padding-top: 30px;
 }
 .icon{
     margin-top: 40px;
     font-size: 50px;
-
     
 }
+
 .fab:hover{
     transform: translateY(2px);
     
@@ -133,6 +142,9 @@ th:hover{
 }
 ol{
     color:green;
+    margin-left: 50%;
+    text-align: left;
+    margin-top: 20px;
  
 }
 
