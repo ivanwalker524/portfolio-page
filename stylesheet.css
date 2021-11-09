@@ -26,6 +26,11 @@ header{
     font-size: 1.4rem;
     padding: 20px;
 }
+#para3{
+    font-style: italic;
+    padding: 10px;
+    font-size: 20px;
+}
 .nav-links{
     background-color: pink;
     position: fixed;
@@ -53,7 +58,7 @@ li a:hover{
 }
 #projects{
     background-color: burlywood;
-    height: 500px;
+    height: 520px;
   
 }
 @media (max-width:650px){
@@ -69,27 +74,35 @@ li a:hover{
     padding: 10px;
     letter-spacing: 0.1rem;
 }
-table{
-    border: 4px soli silver;
-    border-collapse: collapse;  
+.pp-btn{
+    list-style: none;
     text-align: center;
-    margin: 35px;
-    margin-left: 30%;
-
+    float: left;
+    margin-left: 38%;
+    display: block;
+    background-color: darkolivegreen;
+    margin-top: 39px;
+    width: 300px;
+    
 }
-@media (max-width:800px){
-    table{
-        margin-left: 10px;
+@media (max-width:650px ){
+    .pp-btn{
+        margin-left: 25%;
     }
 }
-th{
-    color:blue;
-    border: solid silver 4px;
-    padding: 29px;
-    letter-spacing: 0.1rem;
+.liii{
+    text-align: center;
+    padding: 20px;
+    border: 2px solid;
+    color: white;
 }
-th:hover{
-    color: black;
+
+#aa{
+    color: white;
+}
+#aa:hover{
+    color:rgb(0, 247, 123);
+    background-color: slategray;
 }
 .divv{
     border-bottom: 5px solid red;
@@ -102,7 +115,7 @@ th:hover{
     }
 }
 .heading2{
-    margin-top: 60px;
+    margin-top: 65px;
     padding-top: 30px;
 }
 .icon{
@@ -135,11 +148,12 @@ th:hover{
 font-family: cambria;
 color: darkmagenta;
 font-weight: bolder;
+margin-top: 250px;
     
 }
 @media (max-width:1000px){
     #skills{
-        margin-left: 12%;
+        margin-left: 10%;
     }
 }
 ol{
