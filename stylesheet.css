@@ -110,6 +110,11 @@ th:hover{
     font-size: 50px;
     
 }
+@media (max-width:670px){
+    .icon{
+        font-size: 35px;
+    }
+}
 
 .fab:hover{
     transform: translateY(2px);
@@ -127,17 +132,14 @@ th:hover{
 }
 
 #skills{
-    border: solid;
-    width: 400px;
-    margin-left: 35%;
-    border-radius: 10px;
-   
-
+font-family: cambria;
+color: darkmagenta;
+font-weight: bolder;
+    
 }
 @media (max-width:1000px){
     #skills{
         margin-left: 12%;
-        color: blueviolet;
     }
 }
 ol{
