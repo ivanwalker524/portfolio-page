@@ -245,3 +245,9 @@ figcaption{
         margin-right: 30%;
     }
 }
+b{
+color: blue;
+font-weight: bolder;
+text-decoration: underline;
+
+}
