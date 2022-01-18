@@ -222,6 +222,11 @@ padding: 10px;
     }
 }
 
+@media all and (max-width: 450px){
+   .work,img{
+        width: 300px;
+    }
+}
 #aa{
     text-align: center;
     color: black;
