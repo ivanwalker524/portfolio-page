@@ -8,6 +8,21 @@
     <link rel="stylesheet" href="stylesheet.css" media="all">
 </head>
 <body>
+    <div class="my_pic">
+        <div class="profile">
+            <img style="width: 100px; height: 100px; border-radius: 100%;
+            background-size: cover; 
+            " src="./IMG_20220218_204550_999.jpg" alt="Walker's smile">
+        </div>
+        <div class="caption" style="
+        margin: 35px 0px;
+        color: brown;
+        font-weight: bold;
+        ">
+            <span>@Ivan Walker</span>
+            <div style="margin-left: 24px; color: #000;">software developer</div>
+        </div>
+    </div>
     
     <!-- heading -->
     <header id="header">
@@ -21,7 +36,7 @@
         <ul>
             <li id="lii"><a href="#heading2">contact</a></li>
             <li id="lii"><a href="#projects">Work</a></li>
-            <li id="lii"><a href="#">Main</a></li>
+            <li style="background-color: silver ; margin: 0px 5px;" id="lii"><a href="#">Main</a></li>
         </ul>
 
     </nav>
@@ -44,30 +59,30 @@
             </div>
         </figure>
                 
-    <H1 id="skills">My Skills</H1>
-   <ol>
-       <li id="skill-btn">HTML</li>
-       <br>
-       <li id="skill-btn">CSS</li>
-       <br>
-       <li id="skill-btn">JAVASCRIPT</li>
-
-       <br>
-       <li id="skill-btn">GITHUB</li>
-   </ol>
+   <div class="skills">
+       <h1>My skills</h1>
+       <div class="my_skills">
+           <ul>
+               <li>HTML</li>
+               <li>CSS</li>
+               <li>JAVASCRIPT</li>
+               <li>GITHUB</li>
+           </ul>
+       </div>
+   </div>
 </div>
 <h1 id="heading2">Let's Work together</h1>
 <p id="para3">For more information visit us</p>
 <ul class="icon">
-    <a href="https://github.com"><i class="fab fa-github">  GitHub</i></a>
-   <a href="https://twitter.com"><i class="fab fa-twitter">  Twitter</i></a> 
-    <a href="https://facebook.com/freecodecamp"><i class="fab fa-facebook">  Facebook</i></a>
-    <a href="https://mailto:ivanwalker524@gmail.com"><i class="fas fa-envelope-square">  Send Email</i></a>
+   <span> <a href="https://github.com"><i style="color: #000;" class="fab fa-github">  GitHub</i></a></span>
+  <span><a href="https://twitter.com"><i style="color: #000;" class="fab fa-twitter">  Twitter</i></a></span> 
+   <span><a href="https://facebook.com/freecodecamp"><i style="color: #000;" class="fab fa-facebook">  Facebook</i></a></span>
+  <span><a href="https://mailto:ivanwalker524@gmail.com"><i style="color: #000;" class="fas fa-envelope-square">  Send Email</i></a></span>
 </ul>
 
 <div class="divv"></div>
 <footer class="footer">
-    <nav> Created by <b>Ivan Walker</b>   &ensp;&ensp;&ensp;&ensp;&copy;2021 freeCodeCamp.</nav>
+    <span> Created by <b>Ivan Walker</b>&copy;2021 -2022 freeCodeCamp.</span>
 </footer>
 </body>
 </html>
