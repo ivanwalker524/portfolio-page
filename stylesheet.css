@@ -9,15 +9,18 @@ body{
     background-color: antiquewhite;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 text-align: center;
+display: flex;
+flex-direction: column;
+height: 100vh;
 }
 #nav-links > ul{
     list-style-type: none;
     display: flex;
     flex-direction: row-reverse;
-
+    
 }
 #lii{
-    padding: 20px;
+    padding: 10px;
 }
 @media all and (max-width: 40rem){
     #lii{
@@ -38,8 +41,14 @@ a:hover{
     background-color: silver;
 }
 
+.my_pic{
+    display: flex;
+    margin-top: 11%;
+    margin-left: 5px;
+    position: absolute;
+}
 #head{
-    font-size: 80px;
+    font-size: 55px;
     color: blue;
     text-align: center;
     margin-top: 14%;
@@ -78,6 +87,7 @@ a:hover{
 #nav-links{
     background-color: pink;
     position: fixed;
+    opacity: 0.8;
     top: 0;
     width: 100%;
     font-size: 27px;
@@ -89,11 +99,6 @@ a:hover{
     color: red;
     padding: 10px;
     letter-spacing: 0.1rem;
-}
-@media screen and (max-width: 64rem){
-    .heading1{
-        margin-right: auto;
-    }
 }
 
 #aa{
@@ -119,12 +124,12 @@ a:hover{
 }
 .icon{
     margin-top: 40px;
-    font-size: 50px;
+    font-size: 25px;
     
 }
 @media all and (max-width:670px){
     .icon{
-        font-size: 35px;
+        font-size: 25px;
     }
 }
 
@@ -136,73 +141,56 @@ a:hover{
     transform: translateY(2px);
 }
 .footer{
-   
+   display: flex;
+   flex-direction: column;
     font-size: 20px;
     background-color: pink;
     padding:20px;
     bottom: 0;
 }
-
-#skills{
-font-family: cambria;
-color: darkmagenta;
-font-weight: bolder;
-margin-top: 250px;
-border: 2px solid green; 
-background: black;
-border-radius: 4px;
-padding: 10px;
-margin-right: 30%;
-margin-left: 30%;
-
-    
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-@media all and (max-width:64rem){
-    #skills{
-        margin-left: 30%;
-    }
+.skills > h1{
+    margin: 20px 0;
+    border-bottom: 3px solid ;
+    color: rgb(58, 44, 11);
+    margin-top: 10%;
 }
-ol{
-    color: white;
-    margin-left: 20%;
-    text-align: left;
-    margin-top: 20px;
-    border: 2px solid;
-    padding: 20px;
-    background: black;
-    margin-right: 20%;
- 
+.skills > .my_skills{
+    background-color: #6a6b6a;
+    width: 400px;
+    height: 350px;
+    border-radius: 0 100px;
 }
-#skill-btn{
-    border: 2px solid;
-    padding: 10px;
-    border-radius: 5px;
-    
+.skills > .my_skills > ul{
+    padding: 30px;
+    list-style-type: none;
+    color: #fff;
+    background-color: rgb(155, 4, 4);
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 100px;
 }
-#skill-btn:hover{
-    background: silver;
-    color: teal;
-    transform: translatey(3px);
+.skills > .my_skills > ul > li{
+    padding-inline-end: 20px;
+    line-height: 3;
 }
-
 #projects{
    display: flex;
-   flex-direction: row;
+   flex-grow: 0;
+   overflow-x: scroll;
 justify-content: space-between;
-padding: 10px;
-}
-
-@media all and (max-width:64rem){
-    #projects{
-        display: block;
-        width: 200px;
-    
-    }
+padding:0 10px
 }
 
 .work img{
+    flex-direction: column;
     height: 250px;
     padding: 10px;
+    display: flex;
    margin-right: 30px;
     border-radius: 30px;
     box-shadow: 10px 7px rgba(0,0,0,0.4), 19px 9px rgba(0,0,0,0.10);
@@ -214,25 +202,21 @@ padding: 10px;
         margin-left: 50px;
     }
 }
-@media all and (max-width: 600px){
-    .work,img{
-        width: 380px;
-        height: 310px;
-        margin-left: 10px;
-    }
-}
-
-@media all and (max-width: 450px){
-   .work,img{
-        width: 300px;
-    }
-}
 #aa{
     text-align: center;
-    color: black;
+    color:blanchedalmond;
     text-decoration: none;
     font-size: 1.3rem;
     font-weight: bold;
+    display: inline-block;
+    background-color: #6a6b6a;
+    padding: 5px 5px;
+    border-radius: 8px;
+}
+#aa:hover{
+    transition: calc(0.5s);
+    border-bottom: 2px solid #6a6b6a;
+    padding: 10px 8px;
 }
 figcaption{
     padding: 20px;
