@@ -40,12 +40,21 @@ a:hover{
     color: green;
     background-color: silver;
 }
+#lii:hover{
+    border-bottom: 2px solid #6a6b6a;
+}
 
 .my_pic{
     display: flex;
     margin-top: 11%;
     margin-left: 5px;
     position: absolute;
+}
+@media all and (max-width:600px){
+    .my_pic{
+        display: flex;
+        margin-top: 14%;
+    }
 }
 #head{
     font-size: 55px;
@@ -178,6 +187,14 @@ a:hover{
     padding-inline-end: 20px;
     line-height: 3;
 }
+@media all and (max-width: 400px){
+    .skills > .my_skills{
+        width: 300px;
+        display: flex;
+        position: relative;
+        
+    }
+}
 #projects{
    display: flex;
    flex-grow: 0;
@@ -202,6 +219,15 @@ padding:0 10px
         margin-left: 50px;
     }
 }
+@media all and (max-width:600px){
+    .work,img{
+        width:300px ;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 14%;
+    }
+}
 #aa{
     text-align: center;
     color:blanchedalmond;
@@ -214,7 +240,7 @@ padding:0 10px
     border-radius: 8px;
 }
 #aa:hover{
-    transition: calc(0.5s);
+    transition: 0.5 all;
     border-bottom: 2px solid #6a6b6a;
     padding: 10px 8px;
 }
