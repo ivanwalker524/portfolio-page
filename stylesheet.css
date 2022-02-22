@@ -191,6 +191,7 @@ a:hover{
     .skills > .my_skills{
         width: 300px;
        display: flex;
+       flex-direction: column;
         position: relative;
         
     }
