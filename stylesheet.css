@@ -41,7 +41,7 @@ a:hover{
     background-color: silver;
 }
 #lii:hover{
-    border-bottom: 2px solid #6a6b6a;
+    border-bottom: 4px solid #6a6b6a;
 }
 
 .my_pic{
@@ -165,13 +165,21 @@ a:hover{
 }
 .skills > h1{
     margin: 20px 0;
-    border-bottom: 3px solid ;
+    /* border-bottom: 3px solid ; */
     color: rgb(58, 44, 11);
     margin-top: 10%;
+    padding: 10px 8px;
+   background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 5px 2px  rgb(243, 243, 243), 3px 5px rgb(192, 185, 185);
 }
 .skills > .my_skills{
-    background-color: #6a6b6a;
-    width: 400px;
+    background-color: #c9cfc9;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 8px 4px rgb(214, 191, 147), 15px 10px rgb(184, 134, 19);
+    flex-grow: 0;
     height: 350px;
     border-radius: 0 100px;
 }
@@ -190,10 +198,7 @@ a:hover{
 @media all and (max-width: 400px){
     .skills > .my_skills{
         width: 300px;
-       display: flex;
-       flex-direction: column;
-        position: relative;
-        
+       
     }
 }
 #projects{
