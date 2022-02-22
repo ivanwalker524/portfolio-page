@@ -53,7 +53,7 @@ a:hover{
 @media all and (max-width:600px){
     .my_pic{
         display: flex;
-        margin-top: 14%;
+        margin-top: 18%;
     }
 }
 #head{
@@ -190,7 +190,7 @@ a:hover{
 @media all and (max-width: 400px){
     .skills > .my_skills{
         width: 300px;
-        display: flex;
+       display: flex;
         position: relative;
         
     }
