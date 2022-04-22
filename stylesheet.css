@@ -119,17 +119,17 @@ a:hover{
 }
 .divv{
     border-bottom: 5px solid red;
-    margin-top:30%;
+    margin-top:20%;
     
 }
 @media all and (max-width:680px){
     .divv{
-        margin-top: 55%;
+        margin-top: 28%;
     }
 }
 #heading2{
-    margin-top: 40px;
-    padding-top: 35px;
+   margin-top: 100px;
+   
 }
 .icon{
     margin-top: 40px;
@@ -156,6 +156,7 @@ a:hover{
     background-color: pink;
     padding:20px;
     bottom: 0;
+    to
 }
 .skills{
     display: flex;
@@ -174,21 +175,15 @@ a:hover{
     box-shadow: 5px 2px  rgb(243, 243, 243), 3px 5px rgb(192, 185, 185);
 }
 .skills > .my_skills{
-    background-color: #c9cfc9;
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 8px 4px rgb(214, 191, 147), 15px 10px rgb(184, 134, 19);
-    flex-grow: 0;
-    height: 350px;
-    border-radius: 0 100px;
+    box-shadow: 8px 4px #e8ddc8, 15px 10px #ffe8e4;
+    border-radius:0 100px;
 }
 .skills > .my_skills > ul{
     padding: 30px;
     list-style-type: none;
     color: #fff;
     background-color: rgb(155, 4, 4);
-    border-bottom-left-radius: 20px;
+    border-bottom-left-radius: 76px;
     border-top-right-radius: 100px;
 }
 .skills > .my_skills > ul > li{
@@ -200,6 +195,52 @@ a:hover{
         width: 300px;
        
     }
+}
+.parc{
+    width: 24px;
+    height: 24px;
+    background-color: skyblue;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-size: 10px;
+    position: relative;
+    float: right;
+    bottom: 30px;
+
+}
+.pac{
+    height: 7px;
+    width: 240px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.pac > .dg1{
+    background-color: blue;
+    height: 7px;
+    width: 230px;
+}
+.pac > .dg2{
+    background-color: blue;
+    height: 7px;
+    width: 200px;
+}
+.pac > .dg3{
+    background-color: blue;
+    height: 7px;
+    width: 30px;
+}
+.pac > .dg4{
+    background-color: blue;
+    height: 7px;
+    width: 170px;
+}
+.pac > .dg5{
+    background-color: blue;
+    height: 7px;
+    width: 40px;
 }
 #projects{
    display: flex;
