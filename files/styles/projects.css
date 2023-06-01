@@ -1,0 +1,71 @@
+.work{
+    width: 50%;
+}
+.heading1{
+    text-align: center;
+    margin-top: 50px;
+}
+.work > div{
+    margin: 8px 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.workImg{
+    width: 600px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.workImg img{
+    width: 100%;
+    height: 100%;
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+figcaption{
+    margin: 10px 0;
+}
+figcaption a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+@media screen and (max-width:600px){
+    .d-flex{
+        flex-direction:column-reverse;
+    }
+    .left {
+        width: 100%;
+        min-height: fit-content;
+    }
+    .right{
+        width: 100%;
+    }
+    .work{
+        width: 100%;
+    }
+    .centered{
+        margin: 0 auto;
+    }
+    .icon{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .icon > div{
+        margin-top: 10px;
+        margin-left: 4px;
+        margin-right: 0;
+    }
+    .resume div{
+        margin: 5px 0;
+    }
+}
